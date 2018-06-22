@@ -1,4 +1,4 @@
-# Simple Python program for implementation of Bubble Sort Algorithm
+# Simple Python program for implementation of Binary Search Algorithm
 # Binary search works for a sorted array.
 # Note: The code logic is written for an array sorted in
 #       increasing order.
