@@ -41,7 +41,7 @@ N is an integer within the range [2..100,000];
 each element of array A is an integer within the range [−1,000..1,000].
  */
 
- import java.util.*;
+import java.util.*;
 
 class Solution {
     public int solution(int[] A) {
@@ -57,8 +57,8 @@ class Solution {
     
         for (int P=1; P<A.length; P++)
         {
-            if (Math.abs(Math.abs(sumleft) - Math.abs(sumright))<ans)
-                ans = Math.abs(Math.abs(sumleft) - Math.abs(sumright));
+            if (Math.abs(sumleft - sumright)<ans)
+                ans = Math.abs(sumleft - sumright);
             sumleft += A[P];
             sumright -=A[P];
         }
