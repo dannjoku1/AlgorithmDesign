@@ -12,12 +12,11 @@ public class Solution {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int[] inputLine = new int[n];
-        for (int a = 0; a < n; a++) {
-                inputLine[a] = input.nextInt();
-            }
-
         int swap=0;
-
+        
+        for (int a = 0; a < n; a++) {
+            inputLine[a] = input.nextInt();
+        }
         for(int i=0;i<n;i++){
             if(i+1!=inputLine[i]){
                 int t=i;
