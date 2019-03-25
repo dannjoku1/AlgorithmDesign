@@ -12,7 +12,7 @@ public class Solution {
         int size = in.nextInt();
         int n = in.nextInt();
         int[] arr = new int[size];
-
+//
         for(int i = 0; i < size; i++) {
             if(n > i) 
                 arr[size - n + i] = in.nextInt();
